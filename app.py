@@ -1,5 +1,8 @@
-def add(a, b):
-    return a + b
-
-if __name__ == "__main__":
-    print("Sum of 2 and 3 is", add(2, 3))
+public class App {
+    public static int add(int a, int b) {
+        return a + b;
+    }
+    public static void main(String[] args) {
+        System.out.println("Sum of 2 and 3 is " + add(2, 3));
+    }
+}
